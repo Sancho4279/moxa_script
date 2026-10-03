@@ -1,0 +1,2 @@
+Model               ServerName        IP               MAC                FwVer      User              PWD               CfgFile                                  Key               FwFile                                Port
+NPort6450;          NP6450_456;       192.168.0.2;     00:90:e8:04:05:06; 1.16;      admin;            moxa;             NP6000.dec;                              moxa;             np6000_Ver1.17_Build_18082217.rom;    1,3-4;

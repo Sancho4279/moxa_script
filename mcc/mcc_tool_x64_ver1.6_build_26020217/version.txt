@@ -1,0 +1,92 @@
+Product:    MCC Tool
+Version:    1.6 Build 26020217
+Date:       02/02/2026
+Company:    Moxa Inc.
+
+Support Platform: 
+-----------------
+Linux (kernel 2.6.x)
+Linux (kernel 3.x.x)
+Linux (kernel 4.x.x)
+Linux (kernel 5.x.x)
+Linux (kernel 6.x.x)
+
+Supported Moxa Product: 
+-----------------------
+NPort 5000 Series: 5110, 5130, 5150, 5210, 5230, 5232, 5232I, 
+		   5410, 5430, 5430I, 5450, 5450I, 
+		   5610, 5612, 5630, 5650, 
+		   5650-8-M-SC, 5650-16-M-SC, 5650-8-S-SC, 5650-16-S-SC,
+		   5610-8-DT, 5610-8-DT-J, 5650-8-DT, 5650I-8-DT, 5650-8-DT-J, 
+		   5610-8-DTL, 5650-8-DTL, 5650I-8-DTL
+
+NPort 5000A Series: 5110A, 5130A, 5150A, P5150A, 5210A, 5230A, 5250A
+
+NPort IA5000 Series: IA-5150, IA-5150I, IA-5150-S-SC, IA-5150I-S-SC, 
+		     IA-5150-M-SC, IA-5150I-M-SC, IA-5250, IA-5250I
+
+NPort IA5000A Series: IA5150A, IA5150AI, IA5250A, IA5250AI,
+                 IA5450A, IA5450AI
+
+NPort M12 Series: 5150AI-M12, 5250AI-M12, 5450AI-M12
+
+NPort 6000 Series: 6150, 6250, 6250-M-SC, 6250-S-SC, 6450, 
+                   6610-8, 6610-16, 6610-32, 
+                   6650-8, 6650-16, 6650-32
+
+NPort 6000 G2 Series: 6150-G2, 6250-G2
+
+MGate MB3000 Series: MB3170, MB3170I, MB3170-M-SC, MB3170-M-ST, 
+                     MB3170-S-SC, MB3170I-M-SC, MB3170I-S-SC, MB3180,
+                     MB3270, MB3270I, MB3280, MB3480,
+                     MB3660-8-2AC, MB3660-8-2DC, MB3660I-8-2AC, MB3660I-16-2AC,
+                     MB3660-16-2AC, MB3660-16-2DC, MB3660-8-J-2AC, MB3660-16-J-2AC
+
+MGate 5000 Series: MGate5101-PBM-MN, MGate5102-PBM-PN, MGate5103, MGate5105-MB-EIP, 
+                   MGate5109, MGate5111, MGate5114, MGate5118, MGate5217I-600, 
+                   MGate5217I-1200, MGateW5108, MGateW5208
+		   MGate5134, MGate5135, MGate5435
+		   MGate5121, MGate5122, MGate5123
+
+ioLogik E1200 Series: E1210, E1211, E1212, E1213, E1214,
+                      E1240, E1241, E1242, E1260, E1262
+
+ioThinx 4500 Series: IoThinx 4510
+
+Release Note:
+-------------
+ver1.6 Build 26020217
+1.New: Function "show model" is removed.
+2.Improve: Set password support 64 character for NPort G1 device.
+
+ver1.5 Build 25080518
+1.Bugfix: Device list command fail.
+2.Bugfix: IP list command fail.
+3.Bugfix: First login fail.
+
+ver1.4 Build 24110717
+1.New: Support NPort 6000 G2 Series.
+
+ver1.3 Build 23030316
+1. New: Supports new series: MGate 5134 Series, MGate 5135/5435 Series, MGate 
+        5121 Series, MGate 5122 Series, MGate 5123 Series.
+
+ver1.2 Build 20120917
+1. New: Support more model.
+2. New: Support new security method.
+
+ver1.1.9 Build 20042314
+1. New: Support firmware V1.13 of NPort 6000 series.
+
+ver1.1 Build 18111613
+1. New: Support plugin.
+2. New: Support new model IoThinx 4510.
+3. New: New error code -16.
+4. New: New commands.
+        (1) mcc_tool -install "plugin"
+        (2) mcc_tool -ml
+
+ver1.0 Build 17111618
+1. Newly released.
+   
+-End-
