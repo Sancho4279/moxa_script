@@ -1,0 +1,29 @@
+# ==============================================================================
+#  manifest.csv - Firmware-Katalog fuer moxa_setup.sh
+#
+#  Spalten (Semikolon getrennt):
+#    familie  NPORT6000 | NPORT5400 | CN2500
+#    version  Version dieses Images, z.B. 2.3
+#    datei    Dateiname in diesem Verzeichnis
+#    sha256   Pruefsumme, oder "-" um die Pruefung zu ueberspringen
+#    min_von  kleinste Ausgangsversion, aus der direkt aktualisiert werden darf
+#
+#  Das Skript berechnet daraus selbst die Upgrade-Kette. Nur "min_von" bildet
+#  die Zwangsschritte des Herstellers ab.
+#
+#  Stand der Eintraege: 05.09.2026
+#    NPort 6000: v2.3, Build 24101817, freigegeben 25.11.2024
+#                v1.21 ist laut Release Notes Pflichtschritt vor v2.0 und hoeher
+#                ab v2.1 sperrt das Geraet Downgrades unter v2.1
+#    NPort 5400: v4.2, freigegeben 17.03.2025
+#
+#  Firmware ziehen von:
+#    https://www.moxa.com  ->  Support  ->  Product Support  ->  Modell
+#    ->  Reiter "Software & Documentation"  ->  Firmware
+#
+#  Pruefsummen nach dem Download eintragen:  sha256sum *.rom
+# ==============================================================================
+familie;version;datei;sha256;min_von
+NPORT6000;1.21;moxa-nport-6000-series-firmware-v1.21.rom;-;1.13
+NPORT6000;2.3;moxa-nport-6000-series-firmware-v2.3.rom;-;1.21
+NPORT5400;4.2;moxa-nport-5400-series-firmware-v4.2.rom;-;3.13
